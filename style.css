@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow-y: hidden;
+    
+}
+
+
+
+nav{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding: 1.3rem 40px;
+    /* min-width: 300px; */
+    /* overflow-y: hidden; 
+      */
+
+}
+
+.logo img{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
+ nav ul{
+    /* width: 100%; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px ;
+
+}
+nav li{
+    height: 50px;
+
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px; 
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 4px gold;
+}
+nav a:hover{
+    background-color:gold ;
+    color: black;
+}
+
+
+
+.button{
+    padding: 20px 20px;
+}
+
+.btn{
+    border: 1px solid white;
+    color: white;
+    padding: 1rem 30px;
+    background: transparent;
+    border-radius: 10px;
+    letter-spacing: 5px;
+}
+
+.container{
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 300px;
+    padding:  1.5rem;
+    text-align: center;
+    justify-self: center;
+    
+    
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; 
+    width: 95%;
+}
+
+
+.btn2{
+    background-color: gold;
+    color: black;
+    border-radius: 10px;
+    padding: 0 20px;
+    text-align: center;
+    margin: 10px 30%;
+
+} 
+
+h1{
+    text-shadow: 3px 3px 4px  yellow, 1px 5px 3px green;
+}
+
+form{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.rme{
+    text-align: center;
+}
+input[type='text'],input[type='password']{
+    width: 80% ;
+    padding: 0.5rem;
+
+}
+
+@media(max-width: 640px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width: 761px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
